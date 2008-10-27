@@ -1,144 +1,145 @@
 "ar-AE":
- date:
-   formats:
-     default: "%Y-%m-%d"
-     short: "%e %b"
-     long: "%B %e, %Y"
-     only_day: "%e"
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      short: "%e %b"
+      long: "%B %e, %Y"
+      only_day: "%e"
 
-   day_names: [الأحد, الإثنين, الثلاثاء, الأربعاء, الخميس, الجمعة, السبت]
-   abbr_day_names: [الأحد, الإثنين, الثلاثاء, الأربعاء, الخميس, الجمعة, السبت]
-   month_names: [~, يناير, فبراير, مارس, ابريل, مايو, يونيو, يوليو, اغسطس, سبتمبر, اكتوبر, نوفمبر, ديسمبر]
-   abbr_month_names: [~, يناير, فبراير, مارس, ابريل, مايو, يونيو, يوليو, اغسطس, سبتمبر, اكتوبر, نوفمبر, ديسمبر]
-   order: [ :day, :month, :year ]
- 
- time:
-   formats:
-     default: "%a %b %d %H:%M:%S %Z %Y"
-     time: "%H:%M"
-     short: "%d %b %H:%M"
-     long: "%B %d, %Y %H:%M"
-     only_second: "%S"
+    day_names: [الأحد, الإثنين, الثلاثاء, الأربعاء, الخميس, الجمعة, السبت]
+    abbr_day_names: [الأحد, الإثنين, الثلاثاء, الأربعاء, الخميس, الجمعة, السبت]
+    month_names: [~, يناير, فبراير, مارس, ابريل, مايو, يونيو, يوليو, اغسطس, سبتمبر, اكتوبر, نوفمبر, ديسمبر]
+    abbr_month_names: [~, يناير, فبراير, مارس, ابريل, مايو, يونيو, يوليو, اغسطس, سبتمبر, اكتوبر, نوفمبر, ديسمبر]
+    order: [ :day, :month, :year ]
 
-     datetime:
-       formats:
-         default: "%Y-%m-%dT%H:%M:%S%Z"
+  time:
+    formats:
+      default: "%a %b %d %H:%M:%S %Z %Y"
+      time: "%H:%M"
+      short: "%d %b %H:%M"
+      long: "%B %d, %Y %H:%M"
+      only_second: "%S"
 
-     am: 'صباحا'
-     pm: 'مساءا'
-     
- datetime:
-   distance_in_words:
-     half_a_minute: 'نصق دقيقة'
-     less_than_x_seconds:
-       zero: 'أقل من ثانية'
-       one: 'ثانية واحدة'
-       other: '{{count}} ثوان'
-     x_seconds:
-       one: 'ثانية واحدة'
-       other: '{{count}} ثوان'
-     less_than_x_minutes:
-       zero: 'أقل من دقيقة'
-       one: 'دقيقة واحدة'
-       other: '{{count}} دقائق'
-     x_minutes:
-       one: 'دقيقة واحدة'
-       other: '{{count}} دقائق'
-     about_x_hours:
-       one: 'حوالي ساعة واحدة'
-       other: '{{count}} ساعات'
-     x_days:
-       one: 'يوم واحد'
-       other: '{{count}} أيام'
-     about_x_months:
-       one: 'حوالي شهر واحد'
-       other: '{{count}} أشهر'
-     x_months:
-       one: 'شهر واحد'
-       other: '{{count}} أشهر'
-     about_x_years:
-       one: 'حوالي سنة'
-       other: '{{count}} سنوات'
-     over_x_years:
-       one: 'أكثر من سنة'
-       other: '{{count}} سنوات'
-    
- number:
-   format:
-     precision: 3
-     separator: '.'
-     delimiter: ','
-   currency:
-     format:
-       precision: 2
-       format: '%u %n'
-       
- active_record:
-   error:
-     header_message: ["ليس بالامكان حفظ {{object_name}}: خطأ واحد", "ليس بالامكان حفظ {{object_name}}: {{count}} أخطاء."]
-     message: "يرجى التحقق من الحقول التالية:"
-   error_messages:
-     inclusion: "ليس خيارا مقبولا"
-     exclusion: "محجوز"
-     invalid: "غير معرف أو محدد"
-     confirmation: "لا تتوافق مع التأكيد"
-     accepted: "يجب أن تقبل"
-     empty: "فارغ, نرجو ملء الحقل"
-     blank: "فارغ, نرجو ملء الحقل"
-     too_long: "أطول من اللازم (الحد الأقصى هو {{count}})"
-     too_short: "أقصر من اللازم (الحد الأدنى هو {{count}})"
-     wrong_length: "بطول غير مناسب (يجب أن يكون {{count}})"
-     taken: "غير متوفر (مستخد)"
-     not_a_number: "ليس رقما"
-     greater_than: "يجب أن يكون أكبر من {{count}}"
-     greater_than_or_equal_to: "يجب أن يكون أكبر من أو يساوي {{count}}"
-     equal_to: "يجب أن يساوي {{count}}"
-     less_than: "يجب أن يكون أصغر من {{count}}"
-     less_than_or_equal_to: "يجب أن يكون أصغرأو يساوي {{count}}"
-     odd: "يجب أن يكون فردي"
-     even: "يجب أن يكون زوجي"
-     
- txt:
-   main_title: "تعريب ريلز"
-   app_name: "تطبيق تجريبي"
-   sub_title: "كيف تعرب تطبيقك مع مزايا الترجمة الجديدة من ريلز"
-   contents: "المحتويات"
-   menu:
-     introduction: "مقدمة"
-     about: "عن تعريب ريلز"
-     setup: "الإعداد"
-     date_formats: "صيغ التاريخ"
-     time_formats: "سيغ الوقت"
-   about:
-     title: "عن هذا التطبيق التجريبي"
-     author: "تمت كتابة هذا التطبيق بواسطة {{mail_1}}."
-     feedback: "إذا كانت لديك أي أسئلة فلا تتردد بمراسلتي. قم أيضا بزيارة  {{blog_href}} حيث أكتب باستمرار عن ريلز وأمور اخرى."
-     licence: "هذا الرنامج التجريبي وكل محتوياته مرخصة تحت {{licence_href}}. إذا أردت استخدامه في حالات غير مذكورة في الرخصة, أرجو مراسلتي لطلب الصلاحية."
-   active_record:
-     too_lazy: "لا يوجد أي أمثلة هنا, أنا كسول للتفكير بأي خصائص لعرض  <strong>كل</strong> رسائل الخطأ المخصصة. ;-)"
-     easy_to_understand: "لكن في النهاية, الموضوع بسيط وسهل الفهم."
-   date_formats:
-     rails_standards_work: "أنماط ريلز القياسية (Date::DATE_FORMATS) ما زالت تعمل:"
-   date_helper:
-     date_time_title: "Date/Time distance"
-     forms_title: "Forms"
-   index:
-     others: "others"
-     introduction: "Lately, a lot of work has been done by {{sven_blog}} and {{sven_github}} to facilitate future internationalization and localization of Rails."
-     story_so_far: "This demo app tries to show you how you can use the features that have been implemented so far to localize big parts of your Rails application."
-   number_helper:
-     note_one: "Note: <code>number_to_phone</code> hasn't been localized yet and probably never will be - at least not in core. Look out for new internationalization/localization plugins like a new version of {{globalize}} as they will probably support stuff like that."
-     note_two: "Another note: <code>number_to_currency</code>, <code>number_to_percentage</code> and <code>number_to_human_size</code> all use <code>number_with_precision</code> internally and <code>number_with_precision</code> uses <code>number_with_delimiter</code> internally."
-   setup:
-     freezing_edge_and_adding: "Freezing Edge and installing the localized_dates plugin"
-     you_need_to_be_on_edge: "You need to be on Edge Rails in order to use the Rails i18n features:"
-     date_time_formats: "For date and time formats, you also need to install the {{localized_dates_link}}:"
-     config_locale: "Configuring the locale"
-     best_place: "The best place to put your locale configuration, in my opinion, is <code>config/locales</code>. The localized_dates plugin will copy two locales, en-US and de-AT, in this directory. You can extend or modify them and also create new locales."
-     locale: "Here's the demo locale that was used for this demo application:"
-     defaults: "You also need to set up the default locale and/or locale in your <code>environment.rb</code> or an initializer."
-     locale_structure_title: "A word on the structure of locales"
-     locale_structure_number: "You may have noticed that inside the <code>:number</code> part of the locale, we defined <code>:format</code> and <code>:currency</code>. In general, locales are structured hierarchically - i.e. a currencies are numbers, percentages are numbers, etc. <code>:currency</code> can either override the basic <code>:format</code> settings (in our case, we set <code>:precision</code> to 2 instead of 3) or extend them (we add two new options, <code>:unit</code> and <code>:format</code>)."
-     locale_structure_date_time: "The same holds true for dates and times: If needed, <code>:datetime</code> and <code>:time_with_zone</code> can be used to specifically address formatting of their respective types instead of just relying on the settings for <code>:time</code>. Note, however, that usually you want to use the same formats as <code>:time</code>."
-   time_formats:
-     rails_standards_work: "أنماط ريلز القياسية (Time::DATE_FORMATS) ما زالت تعمل:"
+      datetime:
+        formats:
+          default: "%Y-%m-%dT%H:%M:%S%Z"
+
+      am: "صباحا"
+      pm: "مساءا"
+
+  datetime:
+    distance_in_words:
+      half_a_minute: 'نصق دقيقة'
+      less_than_x_seconds:
+        zero: 'أقل من ثانية'
+        one: 'ثانية واحدة'
+        other: '{{count}} ثوان'
+      x_seconds:
+        one: 'ثانية واحدة'
+        other: '{{count}} ثوان'
+      less_than_x_minutes:
+        zero: 'أقل من دقيقة'
+        one: 'دقيقة واحدة'
+        other: '{{count}} دقائق'
+      x_minutes:
+        one: 'دقيقة واحدة'
+        other: '{{count}} دقائق'
+      about_x_hours:
+        one: 'حوالي ساعة واحدة'
+        other: '{{count}} ساعات'
+      x_days:
+        one: 'يوم واحد'
+        other: '{{count}} أيام'
+      about_x_months:
+        one: 'حوالي شهر واحد'
+        other: '{{count}} أشهر'
+      x_months:
+        one: 'شهر واحد'
+        other: '{{count}} أشهر'
+      about_x_years:
+        one: 'حوالي سنة'
+        other: '{{count}} سنوات'
+      over_x_years:
+        one: 'أكثر من سنة'
+        other: '{{count}} سنوات'
+
+  number:
+    format:
+      precision: 3
+      separator: '.'
+      delimiter: ','
+    currency:
+      format:
+        precision: 2
+        format: '%u %n'
+
+  active_record:
+    error:
+      header_message: ["ليس بالامكان حفظ {{object_name}}: خطأ واحد", "ليس بالامكان حفظ {{object_name}}: {{count}} أخطاء."]
+      message: "يرجى التحقق من الحقول التالية:"
+    error_messages:
+      inclusion: "ليس خيارا مقبولا"
+      exclusion: "محجوز"
+      invalid: "غير معرف أو محدد"
+      confirmation: "لا تتوافق مع التأكيد"
+      accepted: "يجب أن تقبل"
+      empty: "فارغ, نرجو ملء الحقل"
+      blank: "فارغ, نرجو ملء الحقل"
+      too_long: "أطول من اللازم (الحد الأقصى هو {{count}})"
+      too_short: "أقصر من اللازم (الحد الأدنى هو {{count}})"
+      wrong_length: "بطول غير مناسب (يجب أن يكون {{count}})"
+      taken: "غير متوفر (مستخد)"
+      not_a_number: "ليس رقما"
+      greater_than: "يجب أن يكون أكبر من {{count}}"
+      greater_than_or_equal_to: "يجب أن يكون أكبر من أو يساوي {{count}}"
+      equal_to: "يجب أن يساوي {{count}}"
+      less_than: "يجب أن يكون أصغر من {{count}}"
+      less_than_or_equal_to: "يجب أن يكون أصغرأو يساوي {{count}}"
+      odd: "يجب أن يكون فردي"
+      even: "يجب أن يكون زوجي"
+
+  txt:
+    dir: "rtl"
+    main_title: "تعريب ريلز"
+    app_name: "تطبيق تجريبي"
+    sub_title: "كيف تعرب تطبيقك مع مزايا الترجمة الجديدة من ريلز"
+    contents: "المحتويات"
+    menu:
+      introduction: "مقدمة"
+      about: "عن تعريب ريلز"
+      setup: "الإعداد"
+      date_formats: "صيغ التاريخ"
+      time_formats: "صيغ الوقت"
+    about:
+      title: "عن هذا التطبيق التجريبي"
+      author: "تمت كتابة هذا التطبيق بواسطة {{mail_1}}."
+      feedback: "إذا كانت لديك أي أسئلة فلا تتردد بمراسلتي. قم أيضا بزيارة  {{blog_href}} حيث أكتب باستمرار عن ريلز وأمور اخرى."
+      licence: "هذا الرنامج التجريبي وكل محتوياته مرخصة تحت {{licence_href}}. إذا أردت استخدامه في حالات غير مذكورة في الرخصة, أرجو مراسلتي لطلب الصلاحية."
+    active_record:
+      too_lazy: "لا يوجد أي أمثلة هنا, أنا كسول للتفكير بأي خصائص لعرض  <strong>كل</strong> رسائل الخطأ المخصصة. ;-)"
+      easy_to_understand: "لكن في النهاية, الموضوع بسيط وسهل الفهم."
+    date_formats:
+      rails_standards_work: "أنماط ريلز القياسية (Date::DATE_FORMATS) ما زالت تعمل:"
+    date_helper:
+      date_time_title: "مسافة الوقت والتاريخ"
+      forms_title: "النماذج"
+    index:
+      others: "أخرون"
+      introduction: "قام مؤخرا  {{sven_blog}} و {{sven_github}} بجهد كبير لدعم وتخديم الترجمة والمحلية في ريلز."
+      story_so_far: "الهدف من هذا التطبيق التجريبي هو اعطاء أمثلة على كيفية استخدام الخصائص المتوفرة حتى الأن في ريلز لترجمة تطبيق ريلز الخاص بك."
+    number_helper:
+      note_one: "ملاحظة: لم يتم دعم ترجمة <code>number_to_phone</code> وعلى الأرجح لن يأتي هذا الدعم أبدا. حاول أن تجد بلج إنز جديدة للترجمة والمحلية كاصدار جديد لـ {{globalize}} لأنهم سيدعمون أمثلة كهذه على الأرجح."
+      note_two: "ملاحظة أخرى: كل من <code>number_to_currency</code> و <code>number_to_percentage</code> و <code>number_to_human_size</code> يستخدم <code>number_with_precision</code> داخليا و <code>number_with_precision</code> يستخدم <code>number_with_delimiter</code> داخليا."
+    setup:
+      freezing_edge_and_adding: "تجميد ريلز إدج Edge واعداد البلج ان localized_dates"
+      you_need_to_be_on_edge: "يجب أن يكون تطبيقك على ريلز ادج لتسطيع استخداك خصائص الترجمة من ريلز:"
+      date_time_formats: "بالنسبة لأنماط التاريخ والوقت عليك اعداد البلج إن {{localized_dates_link}}:"
+      config_locale: " اعدادات الترجمة والمحلًة(locale)"
+      best_place: "أفضل مكان لملفات المحلة والترجمة بنظري هو <code>config/locales</code>. سيقوم بلج إن localized_dates بنسخ ملفي الترجمة, en-US and de-AT, في هذا المكان, بامكانك التعديل والإضافة عليهم واضافة ترجمات أخرى في نفس المكان."
+      locale: "هذه هي الترجمة المستخدمة في هذا التطبيق التجريبي:"
+      defaults: "بامكانك أيضا تحديد الترجمة الافتراضية في ملف <code>environment.rb</code> أو من خلال initializer."
+      locale_structure_title: "ملاحظة عن بنية ملفات الترجمة"
+      locale_structure_number: "ربما قد لاحظت أنه في قسم <code>:number</code> من ملف الترجمة, قمنا بتعريف <code>:format</code> و <code>:currency</code>. بشكل عام, ملفات الترجمة منظمة ومبنية بشكل مرتبي (hierarchically) - مثلا: كل من currencies و numbers و percentages تندرج تحت numbers وهكذا, بامكان<code>:currency</code> أن تتجاوز التعريف الأساسي تحت <code>:format</code> (في مثالنا هنا, قمنا بتعريف (ترجمة) <code>:precision</code> 2 عوضا عن 3) أو الاضافة عليه (قمنا باضافة تعريفين جديدين, <code>:unit</code> و <code>:format</code>)."
+      locale_structure_date_time: "المثل ينطبق على التاريخ والوقت: حيث يمكنك بالتأكيد اعادة تعريف <code>:datetime</code> و <code>:time_with_zone</code> عوضا عن الاعتماد على تعريفهم الأساسي في نمط <code>:time</code>. لاحظ أنه في معظم الاحيان سترغب باستخدام نفس أنماط <code>:time</code>."
+    time_formats:
+      rails_standards_work: "أنماط ريلز القياسية (Time::DATE_FORMATS) ما زالت تعمل:"
