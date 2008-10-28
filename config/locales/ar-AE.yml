@@ -98,8 +98,11 @@
       odd: "يجب أن يكون فردي"
       even: "يجب أن يكون زوجي"
 
-  txt:
+  layout:
     dir: "rtl"
+    css: "application_ar"
+
+  txt:
     main_title: "تعريب ريلز"
     app_name: "تطبيق تجريبي"
     sub_title: "كيف تعرب تطبيقك مع مزايا الترجمة الجديدة من ريلز"
