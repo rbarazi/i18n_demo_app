@@ -29,7 +29,7 @@
 
   datetime:
     distance_in_words:
-      half_a_minute: 'نصق دقيقة'
+      half_a_minute: 'نصف دقيقة'
       less_than_x_seconds:
         zero: 'أقل من ثانية'
         one: 'ثانية واحدة'
@@ -99,7 +99,6 @@
       even: "يجب أن يكون زوجي"
 
   layout:
-    dir: "rtl"
     css: "application_ar"
 
   txt:

@@ -4,7 +4,7 @@
     <%= stylesheet_link_tag I18n.t('layout.css', :default => 'application') %>
 		<%= javascript_include_tag :defaults%>
   </head>
-  <body dir=<%= I18n.t 'layout.dir', :default => 'ltr' %>>
+  <body>
 		<div id="blank_wrap">
 		<% form_tag '' do %>
 			<%= select_tag("locale", options_for_select(LOCALES_AVAILABLE, I18n.locale), { :index => nil, :onchange => 'this.form.submit()'}) %>
